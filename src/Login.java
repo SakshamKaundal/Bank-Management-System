@@ -1,7 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
-public class Login extends JFrame {
+public class Login extends JFrame implements ActionListener {
+
+    JButton signin,clear,signUPbut; //declared globally
+    JTextField cardTextField;
+    JPasswordField pinTextField;
     Login(){
         //putting image in the popup box
         setLayout(null);
@@ -27,8 +32,9 @@ public class Login extends JFrame {
         cardNo.setForeground(Color.white);
         add(cardNo);
         //card text field
-        JTextField cardTextField = new JTextField();
+        cardTextField = new JTextField();
         cardTextField.setBounds(320,197,205,30);
+        cardTextField.setFont(new Font("Arial",Font.BOLD,14));
         add(cardTextField);
 
         //pin area
@@ -38,21 +44,23 @@ public class Login extends JFrame {
         pin.setForeground(Color.white);
         add(pin);
         //pin text field
-        JPasswordField pinTextField = new JPasswordField();
+        pinTextField = new JPasswordField();
         pinTextField.setBounds(320,257,205,30);
         add(pinTextField);
 
         //adding buttons
         //sign in
-        JButton signin = new JButton("Sign In");
+        signin = new JButton("Sign In");
         signin.setFont(new Font("Osward",Font.BOLD,20));
         signin.setBounds(320,310,111,30);
+        signin.addActionListener(this);
         add(signin);
 
         //clear button
-        JButton clear = new JButton("Clear");
+        clear = new JButton("Clear");
         clear.setFont(new Font("Osward",Font.BOLD,20));
         clear.setBounds(550,230,100,30);
+        clear.addActionListener(this);
         add(clear);
 
         //sign up with text
@@ -62,20 +70,36 @@ public class Login extends JFrame {
         signUpText.setForeground(Color.pink);
         add(signUpText);
         //signup button
-        JButton signUPbut = new JButton("Sign Up");
+        signUPbut = new JButton("Sign Up");
         signUPbut.setFont(new Font("Osward",Font.BOLD,20));
         signUPbut.setBounds(320,380,111,30);
+        signUPbut.addActionListener(this);
         add(signUPbut);
 
 
         //initialising the login box
         setTitle("Automatic Teller Machine");
-        setSize(800,480);
+        setSize(800,500);
         setVisible(true);
-        setLocation(350,200);
+        setLocation(450,200);
         getContentPane().setBackground(Color.black);
     }
+    //abstract methods should be over ride here
+    public void actionPerformed(ActionEvent ae){
+            if(ae.getSource() == clear){
+                cardTextField.setText("");
+                pinTextField.setText("");
+            }
+            else if(ae.getSource()==signin){
+
+            }
+            else if(ae.getSource()==signUPbut){
+                    setVisible(false);
+                    new SignUpOne().setVisible(true);
+            }
+    }
     public static void main(String[] args) {
-         new Login();
+
+        new Login();
     }
 }

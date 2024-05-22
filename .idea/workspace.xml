@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4345f0a2-3d19-4d9c-91f0-5004c6f21cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/banklogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logolast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_tz_1_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcalendar-tz-1.3.3-4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SignUpOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SignUpTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/personalDetails.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SignUpOne.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gmACxIt7YQ7u27EswH8s0k3G5q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,18 +50,34 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Login.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.SignUpOne.executor": "Run",
+    "Application.SignUpTwo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Saksham Kaundal/IdeaProjects/Bank Management System/src/Main.java"
+    "last_opened_file_path": "C:/Users/Saksham Kaundal/IdeaProjects/DSA/src/Strings/Subset.java",
+    "onboarding.tips.debug.path": "C:/Users/Saksham Kaundal/IdeaProjects/Bank Management System/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.splitter.proportion": "0.25062656"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Saksham Kaundal\IdeaProjects\Bank Management System\src" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
