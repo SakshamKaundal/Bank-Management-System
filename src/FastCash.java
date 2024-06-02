@@ -77,7 +77,7 @@ public class FastCash extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==exit){
-            System.exit(0);
+            setVisible(false);
             new Transactions(pinnumber).setVisible(true);
         }else {
             String amount = ((JButton)e.getSource()).getText().substring(3);

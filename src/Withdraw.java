@@ -72,12 +72,13 @@ public class Withdraw extends JFrame implements ActionListener {
                     setVisible(false);
                     new Transactions(pinnumber).setVisible(true);
 
-                }catch (Exception ex){
+                }
+                catch (Exception ex)
+                {
                     System.out.println(ex);
                 }
             }
         }
-
     }
 }
 
